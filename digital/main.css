@@ -30,20 +30,35 @@ body {
 }
 
 /*Main*/
-.container H1 {
+.card-title-main {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
     color: var(--blue-color);
+    align-content: center;
+    padding: 0 10px;
 }
 
+.card-text-main {
+    text-align: center;
+    color: var(--black-color);
+}
+
+.main-button {
+    text-align: center;
+}
+
+/*Services*/
+
+.services {
+    padding: 15px;
+}
 .card-title {
     color: var(--yellow-color);
 }
 
 
-
 /*Footer*/
 
 
-
-
-
-  
