@@ -19,24 +19,17 @@
 body {
     background-color:#f6f6f6;
 }
-
-
-
+/*Nav*/
 .text-unisalle {
     color: red !important;
 }
-
-
-/*.navbar {
-    background-color: #002648;
-}*/
 
 #header img {
     width: 140px;
     padding-right: 10px;
 }
 
-
+/*Main*/
 .card-title-main {
     text-align: center;
     margin-top: 30px;
@@ -55,3 +48,17 @@ body {
 .main-button {
     text-align: center;
 }
+
+/*Services*/
+
+.services {
+    padding: 15px;
+}
+.card-title {
+    color: var(--yellow-color);
+}
+
+
+/*Footer*/
+
+
