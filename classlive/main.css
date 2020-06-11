@@ -29,11 +29,10 @@ body {
     padding-right: 10px;
 }
 
-/*Main*/
 .card-title-main {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 40px;
     color: var(--blue-color);
     align-content: center;
@@ -49,15 +48,13 @@ body {
     text-align: center;
 }
 
-/*Services*/
-
-.services {
-    padding: 15px;
+/*Main*/
+.live {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
 }
-.card-title {
-    color: var(--yellow-color);
-}
-
 
 /*Footer*/
 
