@@ -30,39 +30,37 @@ body {
 }
 
 /*Main*/
-.card-title-main {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 40px;
+.container H1 {
     color: var(--blue-color);
-    align-content: center;
-    padding: 0 10px;
 }
 
-.card-text-main {
-    text-align: center;
-    color: var(--black-color);
-}
-
-.main-button {
-    text-align: center;
-}
-
-/*Services*/
-
-.services {
-    padding: 15px;
-}
 .card-title {
     color: var(--yellow-color);
 }
 
-h2 {
-    color: var(--blue-color);
-}
+.blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+  }
+
+  .div-image img {
+      margin-top: 20px;
+      margin-bottom: 0px;
+  }
+
 
 
 /*Footer*/
 
 
+
+
+
+  
