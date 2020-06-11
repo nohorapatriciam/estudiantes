@@ -1,0 +1,57 @@
+:root{
+    /*colores*/
+    --blue-color: rgba(0,48, 87, 0.9);
+    --yellow-color:rgba(242, 169, 0, 0.9);
+    --gray-color:rgba(178, 178, 179, 0.9);
+    --red-color: rgba(147, 39, 44, 0.9);
+    --gray-color2: #f6f6f6;
+    --blue-color2: rgba(0, 106, 142, 0.9);
+    --yellow-color2: rgba(218.170.0);
+    --black-color: rgba(60, 60, 50, 0.9);
+    /*espaciado*/
+    --space: 10px;
+    /*Box shadow*/
+    --box:0 0 4px rgba(242, 169, 0, 0.9);
+
+  }
+  
+
+body {
+    background-color:#f6f6f6;
+}
+
+
+
+.text-unisalle {
+    color: red !important;
+}
+
+
+/*.navbar {
+    background-color: #002648;
+}*/
+
+#header img {
+    width: 140px;
+    padding-right: 10px;
+}
+
+
+.card-title-main {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: var(--blue-color);
+    align-content: center;
+    padding: 0 10px;
+}
+
+.card-text-main {
+    text-align: center;
+    color: var(--black-color);
+}
+
+.main-button {
+    text-align: center;
+}
