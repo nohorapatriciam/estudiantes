@@ -1,0 +1,126 @@
+:root{
+    /*colores*/
+    --blue-color: rgba(0,48, 87, 0.9);
+    --yellow-color:rgba(242, 169, 0, 0.9);
+    --gray-color:rgba(178, 178, 179, 0.9);
+    --red-color: rgba(147, 39, 44, 0.9);
+    --gray-color2: #f6f6f6;
+    --blue-color2: rgba(0, 106, 142, 0.9);
+    --yellow-color2: rgba(218.170.0);
+    --black-color: rgba(60, 60, 50, 0.9);
+    /*espaciado*/
+    --space: 10px;
+    /*Box shadow*/
+    --box:0 0 4px rgba(242, 169, 0, 0.9);
+
+  }
+  
+
+body {
+    background-color:#f6f6f6;
+}
+/*Nav*/
+.text-unisalle {
+    color: red !important;
+}
+
+.navbar-brand img {
+    width: 140px;
+    padding-right: 10px;
+}
+
+/*Main*/
+.container H1 {
+    color: var(--blue-color);
+}
+
+.card-title {
+    color: var(--yellow-color);
+}
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+
+
+
+/*Footer*/
+
+
+
+
+
+  
