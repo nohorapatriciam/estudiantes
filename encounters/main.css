@@ -30,8 +30,14 @@ body {
 }
 
 /*Main*/
+
+main {
+  margin-bottom: 5px;
+}
+
 .container H1 {
     color: var(--blue-color);
+    font-size: 45px;
 }
 
 .card-title {
@@ -70,6 +76,7 @@ body {
   }
   .marketing h2 {
     font-weight: 400;
+    color: var(--yellow-color);
   }
   .marketing .col-lg-4 p {
     margin-right: .75rem;

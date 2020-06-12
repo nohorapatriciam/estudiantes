@@ -32,6 +32,8 @@ body {
 /*Main*/
 .container H1 {
     color: var(--blue-color);
+    margin-top: 15px;
+    font-size: 50px;
 }
 
 .card-title {

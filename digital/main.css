@@ -58,8 +58,9 @@ body {
     color: var(--yellow-color);
 }
 
-h2 {
+.container h1 {
     color: var(--blue-color);
+    font-size: 55px;
 }
 
 
